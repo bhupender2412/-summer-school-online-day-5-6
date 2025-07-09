@@ -1,0 +1,17 @@
+{
+    "manifest_version":3,
+    "name":"Weather Checker",
+    "version":"1.0",
+    "description":"Check current weather from your locations.",
+    "permissions":["geolocation"],
+    "host_permissions":["https://api.weatherapi.com/"],
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":{
+            "16":"icons/icon1.png",
+            "48":"icons/icon2.png",
+            "128":"icons/icon3.png"
+
+        }
+    }
+}
